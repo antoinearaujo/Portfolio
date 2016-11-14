@@ -1,0 +1,77 @@
+     
+<head>
+<!-- en-tete du document -->
+<title>Portfolio Antoine Araujo</title>
+ <script src="{{ asset('bundles/framework/js/jquery.min.js') }}"></script>
+      <script src="{{ asset('bundles/framework/js/jquery_test.js') }}"></script>
+     <link href="{{ asset('bundles/framework/css/styles.css') }}" type="text/css" rel="stylesheet" />
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<div id="header">                 
+  <img src="{{ asset('bundles/framework/images/5.png')}}"  id="imgMove">
+  <p id="email"> antoinearau@gmail.com</p>
+
+</br></br>
+</br></br>
+</br></br>
+</br></br>
+</br></br>
+</br></br>
+
+
+<form class="form-container">
+  <figure>
+    <a href="https://github.com/antoinearaujo">
+      <img src="{{ asset('bundles/framework/images/github.png')}}" alt="Profil Github">
+      <figcaption>
+        <h4></h4>
+      </figcaption>
+    </a>
+    <p>Mon profil Github </p>
+  </figure>
+</br>
+
+  <figure>
+    <a href="{{path('home_projets')}}">
+      <img src="{{ asset('bundles/framework/images/3.png')}}" >
+      <figcaption>
+        <h4></h4>
+      </figcaption>
+    </a>
+    <p>Mes Projets</p>
+  </figure>
+</form>
+
+</div>
+</head>
+
+
+
+
+<big style="font-size: 2em; ">
+  <h1 style="text-align: center; font-family: Verdana, sans-serif;"text-shadow: 10px 5px 5px #767676;" >
+    <strong>
+      <i>Portfolio Antoine Araujo</i>
+    </strong>
+  </h1>
+</big>
+
+
+
+
+
+
+
+
+
+<div class="parent2">
+    
+
+ <a href="{{ path('home_homepage') }}"><div class="test1"><i class="">CV</i></div></a>
+   <a href="{{ path('home_competences') }}"><div class="test2"><i class="">Compétences</i></div></a>
+  <a href="{{ path('home_stages') }}"><div class="test3"><i class="">Stages</i></div></a>
+  <a href="{{ path('home_veille') }}"><div class="test4" ><i class="">Veille</i></div></a>
+
+
+  <div class="mask2"><i class="fa fa-home fa-3x"></i></div></div>

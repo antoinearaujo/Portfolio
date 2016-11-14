@@ -1,0 +1,19 @@
+home_homepage:
+    path:     /
+    defaults: { _controller: HomeBundle:Default:index }
+
+home_veille:
+    path:     /veille
+    defaults: { _controller: HomeBundle:Default:veille }
+
+home_competences:
+    path:     /competences
+    defaults: { _controller: HomeBundle:Default:competences }
+
+home_projets:
+    path:     /projets
+    defaults: { _controller: HomeBundle:Default:projets }
+
+home_stages:
+    path:     /stages
+    defaults: { _controller: HomeBundle:Default:stages }
